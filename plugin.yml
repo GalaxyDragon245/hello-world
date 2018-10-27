@@ -1,0 +1,53 @@
+name: HelloWorld2
+main: com.kraken.helloworld2.Main
+version: 1.0
+commands:
+     givesword:
+        description: Gives a sword.
+        usage: /<command>
+     netherport:
+        description: Teleport to the nether.
+        usage: /<command>
+     glow:
+        description: Makes a glowing block above the player's head.
+        usage: /<command>
+     jungle:
+        description: Makes a jungle wood block to the player's side.
+        usage: /<command>
+     jockey:
+        description: Spawn a spider jockey.
+        usage: /<command>
+     nv:
+        description: Gives the player night vision.
+        usage: /<command>
+     color:
+        description: Selects a default color.
+        usage: /<command>
+     tag:
+        description: Tags a block with a color.
+        usage: /<command>
+     colorify:
+        description: Colors tagged blocks.
+        usage: /<command>
+     fcheck:
+        description: Checks for a faction..
+        usage: /<command>
+     gui:
+        description: Opens a GUI menu.
+        usage: /<command>
+permissions:
+     helloworld2.*:
+        description: Permission for all HelloWorld2 commands.
+        children:
+           helloworld2.build: true
+           helloworld2.demolish: true
+           helloworld2.sword: true
+           helloworld2.gui: true
+     helloworld2.build:
+        description: Permission to build blocks.
+     helloworld2.demolish:
+        description: Permission to destroy blocks.       
+     helloworld2.sword:
+        description: Permission to use the giveSword command.
+     helloworld2.gui:
+        description: Permission to use the GUI.
