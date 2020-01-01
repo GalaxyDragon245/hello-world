@@ -1,6 +1,10 @@
-# hello-world
-Hello, World!
+# Hello, World!
 
+## Description
+Developed as a repository for Minecraft Spigot plugin tutorial code, as found on YouTube @ 
+https://www.youtube.com/playlist?list=PLHUkvT20xZZN-cUIw4pkRg02uZ-RPEb7W 
+
+## Summary
 Yes, you've heard it a million times by now, that simple two-word introductory phrase.
 
 A programmer who has never typed the words "Hello, World!" in some form or another 
